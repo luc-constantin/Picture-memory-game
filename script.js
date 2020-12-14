@@ -40,7 +40,7 @@ const images = [
       number_of_items: 6,
     }, 
   ];
-    const timeDelay = 4000;
+    const timeDelay = 5000;
 
     let currentImageValue = 0,
     displayNumber = 0,
