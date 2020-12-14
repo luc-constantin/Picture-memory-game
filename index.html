@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Number Match Game</title>
+</head>
+<body>
+    <main id="game-area">
+        <div class="stats">
+            <div id="statsContent">
+                <h3> 
+                    Score <span id="currentScore"></span> / 
+                    <span id="totalAvailable"></span>
+                </h3>
+                <p class="items">
+                    <span id="number"></span> <span id="item-name"></span>
+                </p>
+                <div class="match-buttons">
+                    <button onclick="match()">&#128077;</button>
+                    <button onclick="noMatch()">&#128078;</button>
+            </div>
+            </div>
+        </div>               
+        <div class="image-area">
+            <h3 id="message"></h3>
+            <div id="startScreen">
+                <h1>Welcome to the <em><u></i>Match the Number</u></em> game...</h1>
+                <em class="space-y">The rules are the following:</em>
+                <p class="space-y">&#128077; thumbs up if the number of items matches the displayed 
+                    number</p>
+                <p class="space-y">&#128078; thumbs down if no match</p>
+                <p>You have <span id="timeSetting"></span> seconds to decide</p>
+                <button id="play-button" onclick="play()">
+                 Play!
+                </button>
+            </div>
+            <div id="imageContainer"></div>
+        </div>    
+    </main>
+<script src="script.js"></script>
+</body>
+</html> 
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+  <title>||Working with elements||</title>
+</head>
+<body>
+  <div id="div1">The text above has been created dynamically.</div>
+</body>
+</html> -->
+
+<!--  <p>JavaScript test.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  alert('Hello! I am not working at the moment');
+} 
+</script> -->
