@@ -8,4 +8,4 @@
 5. using different colours to game area
 
 ###### That's all!
-## Enjoy PLaying [here](https://luc-constantin.github.io/Picture-memory-game/)
+## Enjoy Playing [here](https://luc-constantin.github.io/Picture-memory-game/)
